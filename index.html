@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="The JavaScript Calculator is one of the Front End Libraries Projects on Freecodecamp">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Build a JavaScript Calculator</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h1 class="text-right" id="display" style="overflow-x: auto;">0</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-9">
+          <div class="row align-content-between" style="height: 100%;">
+            <div class="col-4">
+              <button class="btn btn-outline-secondary btn-block" id="seven">7</button>
+            </div>
+            <div class="col-4">
+              <button class="btn btn-outline-secondary btn-block" id="eight">8</button>
+            </div>
+            <div class="col-4">
+              <button class="btn btn-outline-secondary btn-block" id="nine">9</button>
+            </div>
+    
+            <div class="col-4">
+              <button class="btn btn-outline-secondary btn-block" id="four">4</button>
+            </div>
+            <div class="col-4">
+              <button class="btn btn-outline-secondary btn-block" id="five">5</button>
+            </div>
+            <div class="col-4">
+              <button class="btn btn-outline-secondary btn-block" id="six">6</button>
+            </div>
+
+            <div class="col-4">
+              <button class="btn btn-outline-secondary btn-block" id="one">1</button>
+            </div>
+            <div class="col-4">
+              <button class="btn btn-outline-secondary btn-block" id="two">2</button>
+            </div>
+            <div class="col-4">
+              <button class="btn btn-outline-secondary btn-block" id="three">3</button>
+            </div>
+
+            <div class="col-4">
+              <button class="btn btn-outline-secondary btn-block" id="zero">0</button>
+            </div>
+            <div class="col-4">
+              <button class="btn btn-outline-secondary btn-block" id="decimal">.</button>
+            </div>
+            <div class="col-4">
+              <button class="btn btn-primary btn-block" id="equals">=</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-3">
+          <!-- Here go operators -->
+          <button class="btn btn-primary btn-block" id="clear">AC</button>
+          <button class="btn btn-primary btn-block" id="divide" data-eval="/">÷</button>
+          <button class="btn btn-primary btn-block" id="multiply" data-eval="*">×</button>
+          <button class="btn btn-primary btn-block" id="subtract" data-eval="-">-</button>
+          <button class="btn btn-primary btn-block" id="add" data-eval="+">+</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Calculator Logic -->
+    <script src="script.js"></script>
+  </body>
+</html>
